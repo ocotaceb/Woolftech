@@ -14,13 +14,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
     
     @IBAction func fromNewAccount(segue: UIStoryboardSegue)
     {
         
+    }
+    
+    @IBAction func Logout(segue: UIStoryboardSegue)
+    {
+        //Do Nothing
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "loginPage"
+        {
+            let des = segue.destination as! LoginViewController
+            des.username = username.text ?? ""
+        }
     }
 }
 
