@@ -14,7 +14,9 @@ class LoginViewController: UIViewController {
     var username: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        greeting.text = "Hello " + username + "!"
+
+        
+        greeting.text = "Hello, " + username + "!"
         // Do any additional setup after loading the view.
     }
     
