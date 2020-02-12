@@ -7,20 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C05346E23EC9FCE00C6BCEB /* ShowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C05346D23EC9FCE00C6BCEB /* ShowDataViewController.swift */; };
+		0C1BCCB623EDD2E5003677F9 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C05345F23EC95F500C6BCEB /* Charts.framework */; };
+		0C1BCCB723EDD2E5003677F9 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C05345F23EC95F500C6BCEB /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C552EFB23EB6668004F33D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C552EFA23EB6668004F33D0 /* LoginViewController.swift */; };
 		FF27A9AF23EB35390013BEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF27A9AE23EB35390013BEDE /* AppDelegate.swift */; };
 		FF27A9B123EB35390013BEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF27A9B023EB35390013BEDE /* ViewController.swift */; };
 		FF27A9B423EB35390013BEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF27A9B223EB35390013BEDE /* Main.storyboard */; };
-		FF27A9B623EB353B0013BEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF27A9B523EB353B0013BEDE /* Assets.xcassets */; };
+		FF27A9B623EB353B0013BEDE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF27A9B523EB353B0013BEDE /* Media.xcassets */; };
 		FF27A9B923EB353B0013BEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF27A9B723EB353B0013BEDE /* LaunchScreen.storyboard */; };
 		FF8EEA6523EB43F8004A571F /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8EEA6423EB43F8004A571F /* NewAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0C05345E23EC95F500C6BCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C05345923EC95F500C6BCEB /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		0C05346023EC95F500C6BCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C05345923EC95F500C6BCEB /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		0C1BCCB223EDD28C003677F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1BCCA923EDD28C003677F9 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		0C1BCCB423EDD28C003677F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1BCCA923EDD28C003677F9 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C1BCCB823EDD2E5003677F9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C1BCCB723EDD2E5003677F9 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0C05345923EC95F500C6BCEB /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		0C05346D23EC9FCE00C6BCEB /* ShowDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewController.swift; sourceTree = "<group>"; };
+		0C1BCCA923EDD28C003677F9 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		0C552EFA23EB6668004F33D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FF27A9AB23EB35390013BEDE /* Woolftech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woolftech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF27A9AE23EB35390013BEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF27A9B023EB35390013BEDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF27A9B323EB35390013BEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF27A9B523EB353B0013BEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF27A9B523EB353B0013BEDE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		FF27A9B823EB353B0013BEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF27A9BA23EB353B0013BEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8EEA6423EB43F8004A571F /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +84,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1BCCB623EDD2E5003677F9 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C05345A23EC95F500C6BCEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C05345F23EC95F500C6BCEB /* Charts.framework */,
+				0C05346123EC95F500C6BCEB /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C1BCCAA23EDD28C003677F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1BCCB323EDD28C003677F9 /* Charts.framework */,
+				0C1BCCB523EDD28C003677F9 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C552F0D23EB6F24004F33D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF27A9A223EB35390013BEDE = {
 			isa = PBXGroup;
 			children = (
+				0C1BCCA923EDD28C003677F9 /* Charts.xcodeproj */,
 				FF27A9AD23EB35390013BEDE /* Woolftech */,
 				FF27A9AC23EB35390013BEDE /* Products */,
+				0C552F0D23EB6F24004F33D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +137,14 @@
 		FF27A9AD23EB35390013BEDE /* Woolftech */ = {
 			isa = PBXGroup;
 			children = (
+				0C05345923EC95F500C6BCEB /* Charts.xcodeproj */,
 				FF27A9AE23EB35390013BEDE /* AppDelegate.swift */,
 				FF27A9B023EB35390013BEDE /* ViewController.swift */,
 				FF27A9B223EB35390013BEDE /* Main.storyboard */,
+				0C05346D23EC9FCE00C6BCEB /* ShowDataViewController.swift */,
+				0C552EFA23EB6668004F33D0 /* LoginViewController.swift */,
 				FF8EEA6423EB43F8004A571F /* NewAccountViewController.swift */,
-				FF27A9B523EB353B0013BEDE /* Assets.xcassets */,
+				FF27A9B523EB353B0013BEDE /* Media.xcassets */,
 				FF27A9B723EB353B0013BEDE /* LaunchScreen.storyboard */,
 				FF27A9BA23EB353B0013BEDE /* Info.plist */,
 			);
@@ -77,6 +161,7 @@
 				FF27A9A723EB35390013BEDE /* Sources */,
 				FF27A9A823EB35390013BEDE /* Frameworks */,
 				FF27A9A923EB35390013BEDE /* Resources */,
+				0C1BCCB823EDD2E5003677F9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,6 +198,16 @@
 			mainGroup = FF27A9A223EB35390013BEDE;
 			productRefGroup = FF27A9AC23EB35390013BEDE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0C05345A23EC95F500C6BCEB /* Products */;
+					ProjectRef = 0C05345923EC95F500C6BCEB /* Charts.xcodeproj */;
+				},
+				{
+					ProductGroup = 0C1BCCAA23EDD28C003677F9 /* Products */;
+					ProjectRef = 0C1BCCA923EDD28C003677F9 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FF27A9AA23EB35390013BEDE /* Woolftech */,
@@ -120,13 +215,44 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0C05345F23EC95F500C6BCEB /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 0C05345E23EC95F500C6BCEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0C05346123EC95F500C6BCEB /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 0C05346023EC95F500C6BCEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0C1BCCB323EDD28C003677F9 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 0C1BCCB223EDD28C003677F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0C1BCCB523EDD28C003677F9 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 0C1BCCB423EDD28C003677F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		FF27A9A923EB35390013BEDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF27A9B923EB353B0013BEDE /* LaunchScreen.storyboard in Resources */,
-				FF27A9B623EB353B0013BEDE /* Assets.xcassets in Resources */,
+				FF27A9B623EB353B0013BEDE /* Media.xcassets in Resources */,
 				FF27A9B423EB35390013BEDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C552EFB23EB6668004F33D0 /* LoginViewController.swift in Sources */,
 				FF27A9B123EB35390013BEDE /* ViewController.swift in Sources */,
+				0C05346E23EC9FCE00C6BCEB /* ShowDataViewController.swift in Sources */,
 				FF27A9AF23EB35390013BEDE /* AppDelegate.swift in Sources */,
 				FF8EEA6523EB43F8004A571F /* NewAccountViewController.swift in Sources */,
 			);
